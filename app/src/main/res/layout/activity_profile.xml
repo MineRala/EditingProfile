@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewNameSurname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNameSurname"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="125dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textViewBirthdate"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGenderr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textViewGenderr"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="141dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBirthdate" />
+
+    <TextView
+        android:id="@+id/textViewMail"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="45dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGenderr" />
+
+    <TextView
+        android:id="@+id/textViewAboutMee"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:textColor="#232323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMail" />
+</androidx.constraintlayout.widget.ConstraintLayout>
